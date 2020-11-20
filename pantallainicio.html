@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+   <head> 
+       <meta charset = "utf-8">
+       <title>Siete y media</title>
+   </head> 
+   <body>
+        <form method="get"
+                enctype="application/x-wwww-form-urlencoded"
+                action="juego.php">
+
+            <div> <label> Nombre IA 1 <input name="nombrejugador1" autocomplete> </label></div>
+            <div> <label> Nombre IA 2<input name="nombrejugador2" autocomplete> </label></div>
+
+            <fieldset> 
+                <legend>Dificultad IA 1</legend>
+                <div> <label> <input type="radio" name="comportamiento1" value="2" required> Fácil</label> </div>
+                <div> <label> <input type="radio" name="comportamiento1" value="4" required> Normal</label> </div>
+                <div> <label> <input type="radio" name="comportamiento1" value="6" required> Difícil</label> </div>
+            </fieldset> 
+
+            <fieldset> 
+                <legend>Dificultad IA 2</legend>
+                <div> <label> <input type="radio" name="comportamiento2" value="2" required> Fácil</label> </div>
+                <div> <label> <input type="radio" name="comportamiento2" value="4" required> Normal</label> </div>
+                <div> <label> <input type="radio" name="comportamiento2" value="6" required> Difícil</label> </div>
+            </fieldset> 
+
+            <div><button type="submit">Comenzar</button></div>
+   </body> 
+</html> 
